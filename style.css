@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -22,18 +23,18 @@ header {
     padding-bottom: 1em;
 }
 
-#main_section {
+#main_container {
     display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(50vh, 1fr));
 }
 
 .emp_section {
-    height: 70vh;
     text-align: center;
 }
 
 .headshot_frame {
     margin: 0 auto;
-    height: 70%;
+    height: 60%;
     width: 20%;
     border: solid 2px black;
     border-radius: 10px;
