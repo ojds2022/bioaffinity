@@ -51,6 +51,10 @@ header {
     margin: 10px;
 }
 
+.emp_info {
+    margin-top: 1.5em;
+}
+
 .emp_info a {
     color: blue;
     font-weight: bolder;
